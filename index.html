@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cristiano Filho - Consultor de Soluções Digitais II</title>
+    <meta http-equiv="refresh" content="0; url=https://crisfilho.vercel.app/">
+    <link rel="canonical" href="https://crisfilho.vercel.app/">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Cristiano Filho - Consultor de Soluções Digitais II. Especialista em Salesforce, MuleSoft e desenvolvimento full-stack com 3+ anos de experiência.">
+    <meta name="keywords"
+        content="Cristiano Filho, Salesforce, MuleSoft, Desenvolvedor, Consultor, Engenharia de Software, Capgemini">
+    <meta name="author" content="Cristiano Filho">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Cristiano Filho - Consultor de Soluções Digitais II">
+    <meta property="og:description"
+        content="Especialista em Salesforce, MuleSoft e desenvolvimento full-stack. Bacharel em Engenharia de Software pela Universidade Católica de Salvador.">
+    <meta property="og:url" content="https://crisfilho.vercel.app/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://crisfilho.vercel.app/images/cristiano-filho.jpg">
+    <meta property="og:site_name" content="Cristiano Filho Portfolio">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Cristiano Filho - Consultor de Soluções Digitais II">
+    <meta name="twitter:description"
+        content="Especialista em Salesforce, MuleSoft e desenvolvimento full-stack com 3+ anos de experiência.">
+    <meta name="twitter:image" content="https://crisfilho.vercel.app/images/cristiano-filho.jpg">
+    <meta name="twitter:creator" content="@crisfilho98">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="https://crisfilho.vercel.app/favicon/favicon.ico">
+    <link rel="apple-touch-icon" href="https://crisfilho.vercel.app/favicon/apple-touch-icon.png">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .container {
+            max-width: 500px;
+            padding: 3rem 2rem;
+            background: rgba(15, 23, 42, 0.8);
+            border-radius: 24px;
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(148, 163, 184, 0.2);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        }
+
+        .logo {
+            font-size: 4rem;
+            margin-bottom: 1.5rem;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(45deg, #60a5fa, #a78bfa, #f472b6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: gradient 3s ease-in-out infinite;
+        }
+
+        @keyframes gradient {
+
+            0%,
+            100% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: #94a3b8;
+            margin-bottom: 2rem;
+            font-weight: 500;
+        }
+
+        .redirect-message {
+            font-size: 1rem;
+            color: #cbd5e1;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 3px solid rgba(96, 165, 250, 0.3);
+            border-top: 3px solid #60a5fa;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1.5rem;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .link {
+            display: inline-block;
+            color: #60a5fa;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border: 2px solid #60a5fa;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            margin-top: 1rem;
+        }
+
+        .link:hover {
+            background: #60a5fa;
+            color: #0f172a;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(96, 165, 250, 0.3);
+        }
+
+        .info {
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid rgba(148, 163, 184, 0.2);
+            font-size: 0.9rem;
+            color: #64748b;
+        }
+
+        .info strong {
+            color: #94a3b8;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                margin: 1rem;
+                padding: 2rem 1.5rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .subtitle {
+                font-size: 1rem;
+            }
+
+            .logo {
+                font-size: 3rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">☁️</div>
+        <h1>Cristiano Filho</h1>
+        <p class="subtitle">Consultor de Soluções Digitais II</p>
+
+        <p class="redirect-message">
+            Meu portfólio foi movido para uma nova plataforma com melhor performance e funcionalidades.
+        </p>
+
+        <div class="spinner"></div>
+
+        <p class="redirect-message">
+            Redirecionando automaticamente...
+        </p>
+
+        <a href="https://crisfilho.vercel.app/" class="link">
+            Acessar Novo Portfólio
+        </a>
+
+        <div class="info">
+            <strong>Especialista em:</strong> Salesforce • MuleSoft • Full Stack Development<br>
+            <strong>Localização:</strong> Salvador, Bahia, Brasil<br>
+            <strong>Experiência:</strong> 3+ anos em soluções digitais
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        // Redirecionamento imediato
+        window.location.replace('https://crisfilho.vercel.app/');
+
+        // Fallback após 2 segundos
+        setTimeout(function () {
+            window.location.href = 'https://crisfilho.vercel.app/';
+        }, 2000);
+
+        // Analytics tracking (opcional)
+        if (typeof gtag !== 'undefined') {
+            gtag('event', 'redirect', {
+                event_category: 'navigation',
+                event_label: 'github_pages_to_vercel',
+                value: 1
+            });
+        }
+
+        // Console message
+        console.log('🚀 Redirecionando para: https://crisfilho.vercel.app/');
+    </script>
+</body>
+
+</html>
